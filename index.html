@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blake's resume</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="left">
+            <h1><u>Hello! My name is Blake Johnston</u></h1>
+
+            <img src="me.jpg" style="width: 695px;">
+
+            <p class="aboutme">
+                I'm Blake Thomas Johnston, I come from a family of 5. My dad, Shane, owns his owns business, 
+                Ellingsons Plumbing, Heating, & A/C. My mom, Sarah,runs her own salon at home. My sister, 
+                Ella, is currently a student at NDSU. My brother,Charlie, whose currently in high school. 
+                And my yougest sibling, Lola, whose in preschool. I graduated from Alexandria Area High school
+                in 2018 and am a full-time student at NDSU, majoring in Computer Science. My anticipated graduation 
+                is May, 2024.
+            </p>
+
+            <h2 style="color: white;"><u>Useful Classes that I've taken :</u></h2>
+            <div class="schooling">
+                    <label class="class" for="check1"><strong>Computer Science</label>
+                    <input type="checkbox" id="check1" onclick="checkfunction()">
+                    <label class="class" for="check2"><strong>Mathematics</label>
+                    <input type="checkbox" id="check2" onclick="checkfunction()">
+
+                    <p class="class" id="mycheck1" style="display:none">
+                        CSCI 160
+                        <br>
+                        CSCI 161
+                        <br>
+                        CSCI 213
+                        <br>
+                        CSCI 227
+                        <br>
+                        CSCI 228
+                        <br>
+                        CSCI 374
+                    </p>
+                    <p class="class" id="mycheck2" style="display:none">
+                        MATH 103
+                        <br>
+                        MATH 105
+                        <br>
+                        MATH 144
+                        <br>
+                        MATH 165
+                        <br>
+                        MATH 166
+                    </p>
+                    <script>
+                        function checkfunction() {
+                            var checkB1 = document.getElementById("check1");
+                            var message1 = document.getElementById("mycheck1");
+                            var checkB2 = document.getElementById("check2");
+                            var message2 = document.getElementById("mycheck2");
+
+                            if (checkB1.checked == true){
+                                message1.style.display = "block";
+                            } else {
+                                message1.style.display = "none";
+                            }
+                            if (checkB2.checked == true){
+                                message2.style.display = "block";
+                            } else {
+                                message2.style.display = "none";
+                            }
+                        }
+                    </script>
+            </div>
+            <div class="hobbies" style="overflow-y: scroll;">
+                <h5 class="hobby" style="font-size: 18px;"><u>Other Information :</u></h5>
+                <p class="hobby">Favorite Websites -</p>
+                <li class="hobby"><a href="https://www.twitch.tv/">Twitch</a></li>
+                <li class="hobby"><a href="https://blackboard.ndus.edu/?new_loc=%2Fultra%2Finstitution-page">Blackboard</a></li>
+                <br>
+                <p class="hobby">Favorite movies -</p>
+                <li class="hobby">Pulp Fiction</li>
+                <li class="hobby">Kill Bill</li>
+                <li class="hobby">The Grand Budapest Hotel</li>
+                <br>
+                <p class="hobby">Hobbies -</p>    
+                <li class="hobby">Gaming</li>
+                <li class="hobby">Working Out</li>
+                <li class="hobby">Bars</li>
+                <h6 style="font-size: 18px; margin-left: 30px;"><u>2023 Weekly Class Schedule</u></h6>
+                <table border="1" style="margin: 30px; margin-right: 5px;">
+                    <thead>
+                      <tr>
+                        <th>Time </th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <td>10AM</td>
+                          <td>CSCI 313</td>
+                          <td></td>
+                          <td>CSCI 313</td>
+                          <td></td>
+                          <td>CSCI 313</td>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr>
+                          <td>11AM</td>
+                          <td></td>
+                          <td>CSCI 372</td>
+                          <td></td>
+                          <td>CSCI 372</td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr>
+                          <td>12PM</td>
+                          <td>MATH 129</td>
+                          <td></td>
+                          <td>MATH 129</td>
+                          <td></td>
+                          <td>MATH 129</td>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr>
+                          <td>1PM</td>
+                          <td>CSCI 474</td>
+                          <td></td>
+                          <td>CSCI 474</td>
+                          <td></td>
+                          <td>CSCI 474</td>
+                        </tr>
+                      </tbody>
+                    <tbody>
+                      <tr>
+                        <td>2PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                          <td>3PM</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    <tfoot>
+                      <tr>
+                        <td>4PM</td>
+                        <td>CSCI 222</td>
+                        <td></td>
+                        <td>CSCI 222</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+            </div>
+        </div>
+        <div class="right" style="overflow-y: scroll;">
+            <h3><u>Past & Present Partnerships :</u></h3>
+            <div class="resume">
+                <p>
+                    <strong>
+                        Experience :
+                        <br>
+                        Custom Lawns of Fargo | Fargo, ND
+                        <br>
+                        Laborer | May 2022 – Present
+                    </strong>
+                </p>
+                <li>Lawn care</li>
+                <li>Landscaping</li>
+                <li>Snow removal</li>
+                <br>
+                <p>
+                    <strong>
+                        Experience :
+                        <br>
+                        Geneva Capital | Alexandria, MN
+                        <br>
+                        IT Intern | June 2021 – August 2021
+                    </strong>
+                </p>
+                <li>IT department support</li>
+                <li>Set up computer hardware for office users.</li>
+                <br>
+                <p>
+                    My given projects :
+
+                </p>
+                <li>Create and develop a new payment calculator using HTML, C, 
+                    and studio code. This was used for their home website.</li>
+                <li>Create an intranet with Teams and SharePoint used to keep 
+                    each member of our organization connected digitally</li>
+                <br>
+                <p>
+                    <strong>
+                        YMCA | Fargo, ND
+                        <br>
+                        Child Care | June 2019 – January 2021
+                    </strong>
+                </p>
+                <li>Supervise kids from ages 1 – 11 </li>
+                <li>Come up with different activities everyday while also assisting with homework</li>
+                <br>
+                <p>
+                    <strong>
+                        Ellingson’s Plumbing, Heating & A/C | Alexandria, MN
+                        <br>
+                        Apprentice | June 2018 – January 2020
+                    </strong>
+                </p>
+                <li>Plumbing system installation</li>
+                <li>HVAC ductwork installation</li>
+                <li>Deliver equipment and material</li>
+                <br>
+                <p>
+                    <strong>
+                        Hilltop Lumber | Alexandria, MN
+                        <br>
+                        Shop Assistant | June 2016 – August 2017
+                    </strong>
+                </p>
+                <li>Customer support</li>
+                <li>Material receiving and delivery</li>
+            </div>
+        </div>
+        <div class="skills">
+            <h4 class="skill"><u>My Skills :</u></h4>
+            <li class="skill">Proficient in Microsoft Word, Excel, Outlook, SharePoint, Teams</li>
+            <li class="skill">Fluent in Visual Studio Code, HTML, C, JavaScript, SQL </li>
+            <li class="skill">Familiar with Windows software</li>
+        </div>
+    </body>
+</html> 
